@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./sentinels/back.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    opacity: 0.86;
+    background-color: rgba(237, 229, 229, 0.967);
+}
+ header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+ }
+form{
+    margin-top: 30px;
+}
+form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    border:1px solid #CACACA;
+    padding: 0 15px;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+
+}
+.eye-icon{
+    position: absolute;
+    font-size: 18px;
+    color: #8b8b8b;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 5px;
+}
+.field button  {
+    color: white;
+    background-color: rgb(255, 104, 3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button:hover{
+    background-color: #ff4d00;
+
+}
+
+.field button a{
+    color: white;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+    color: #232836;
+}
+

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="commande.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  />
+    <title>Commande</title>
+</head>
+<body>
+    
+    
+        <div class="container">
+            <h3>Résumé</h3>
+            <h4>Votre commande(<span class="nbp"></span>article)</h4>
+            <hr>
+            <div>
+    
+            </div>
+            <!--
+            <div class = "cart-item">
+                
+                <img src="sentinels\product3.jpg" alt="">
+                <div class = "cart-item-info">
+                  <span class = "cart-item-name">pull</span><br>
+                  <span class = "cart-item-price">120.00DT</span><br>
+                  <span>Qte:1</span>      
+                </div>
+            </div> -->
+            <hr>
+                  <div class="soustotal">
+                    <span>Sous-total</span>
+                    <span class="sou"></span>
+                   </div>
+            <hr>
+                     
+                  <div class="livraison">
+                    <span>Livraison</span>
+                    <span class="liv">$40</span>
+                   </div>
+            <hr>       
+                   <div class="total">
+                    <span>Total</span>
+                    <span class="tot"></span>
+                   </div>
+               
+                
+                
+            </div>
+    
+   <div class="cont">        
+ <h2>Finalisation de commande</h3>
+
+  <div class="formulaire">
+  <form action="/action_page.php">
+    <label for="prenom">Prénom <span class="etoile">*</span></label>
+    <input type="text" id="prenom" name="prenom" placeholder="Ton prénom..">
+
+    <label for="nom">Nom <span class="etoile">*</span></label>
+    <input type="text" id="nom" name="nom" placeholder="Ton nom..">
+
+    <label for="Tel">Télephone <span class="etoile">*</span></label>
+    <input type="text" id="tel" name="tel" placeholder="Ton numéro..">
+
+
+    <label for="adresse">Adresse <span class="etoile">*</span></label></p>
+    <textarea id="adresse" name="adresse" rows="4" cols="50"></textarea><br><br>
+    <!--
+    <span>SousTotal:$45</span><br>
+    <hr>
+    <span>Total:$100</span>
+    -->
+    <span>*</span><span> champs requis </span>
+  
+    <input type="submit" value="Confirmer" id="confirmer" onclick="AjoutData(event)">
+    <input type="submit" value="Modifier" id="update" >
+  </form>
+</div>
+</div> 
+
+
+   <section>
+   
+    <table class="table table-striped" id="storelist">
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Prenom</th>
+            <th>Tel</th>
+            <th>Adresse</th> 
+            <th>Total</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      
+
+   </section>
+    
+    
+   
+
+    
+            
+           
+
+        
+       
+    <script src="commande.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+
+body{
+    background-color: #e8e8e8;
+   
+    
+}
+
+
+
+.container{
+    background-color: #f8f9fd;
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.cart-item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 0px;
+}
+
+.cart-item img{
+    width: 50%;
+    height: 80%;
+}
+
+.cart-item-price{
+    color: #e99c2f;
+    font-weight: bold;
+}
+
+.cart-item-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container h4{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+}
+
+
+.container h3{
+    text-transform: uppercase;
+    color: #9d9e9e;
+}
+
+.sou{
+margin-left: 85px ;
+
+}
+
+
+.tot{
+    margin-left: 120px ;
+    color: #e99c2f;
+    font-weight: bold;
+    }
+
+
+.liv{
+    margin-left: 90px;
+}  
+
+.container hr{
+    color: #9d9e9e;
+}
+
+.nbp{
+    color: #e99c2f;
+    font-weight: bold;
+}
+
+
+
+.container2{
+    background-color: #f8f9fd;
+    width: 20%;
+    height: 80%;
+    margin-bottom:1200px;
+    margin-left: 50px;
+}
+
+/* formulaire*/
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .cont{
+    width: 50%;
+    margin-bottom: 500px;
+    margin-left: 50px;
+    margin-top: -650px;
+    
+  }
+
+  .cont h2{
+    color: #9d9e9e;
+  }
+
+  .etoile{
+    color: #e99c2f;
+    font-weight: bold;
+  }
+
+  #confirmer{
+   background-color: #e99c2f;
+  }
+
+  #update{
+    background-color: #e99c2f;
+   }
+   #update:hover{
+    background-color:#f2f2f2;
+    color: #e99c2f;
+   }
+  
+
+
+  .liste{
+    margin-bottom: 100px;
+    margin-top: -200px;
+  }
+
+
+  /*table css*/
+   
+
+  #storelist {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 200px;
+    margin-top: -480px;
+   
+  }
+  
+  #storelist td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #storelist tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #storelist tr:hover {background-color: #ddd;}
+  
+  #storelist th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#e99c2f;
+    color: white;
+  }
